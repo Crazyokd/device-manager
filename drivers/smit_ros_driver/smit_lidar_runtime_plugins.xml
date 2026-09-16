@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="smit_ros_driver_core">
+  <class
+    name="smit_ros_driver/SmitLidarRuntime"
+    type="smit_ros_driver::SmitLidarRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

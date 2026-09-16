@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="ch020_imu_driver_core">
+  <class
+    name="ch020_imu_driver/Ch020ImuRuntime"
+    type="ch020_imu_driver::Ch020ImuRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

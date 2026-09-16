@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pager100_lora_bridge</name>
+  <version>0.1.0</version>
+  <description>PG100 呼叫器车端 LoRa 串口桥，作为 in-process device-manager 驱动运行，带串口断线自愈</description>
+
+  <maintainer email="Crazyokd@users.noreply.github.com">Crazyokd</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>device_manager_core</depend>
+  <depend>pluginlib</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>device_manager_ros</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

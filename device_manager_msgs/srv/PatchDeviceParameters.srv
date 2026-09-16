@@ -1,0 +1,9 @@
+uint8 NORMAL=0
+uint8 URGENT=1
+
+string device_id
+rcl_interfaces/Parameter[] parameters
+uint8 priority
+---
+bool accepted
+string message

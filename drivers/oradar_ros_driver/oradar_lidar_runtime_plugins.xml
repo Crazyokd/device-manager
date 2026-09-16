@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="oradar_ros_driver_core">
+  <class
+    name="oradar_ros_driver/OradarLidarRuntime"
+    type="oradar_ros_driver::OradarLidarRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

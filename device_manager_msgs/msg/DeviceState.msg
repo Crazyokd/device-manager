@@ -1,0 +1,21 @@
+uint8 UNKNOWN=0
+uint8 UNCONFIGURED=1
+uint8 INACTIVE=2
+uint8 ACTIVE=3
+uint8 FINALIZED=4
+uint8 CONFIGURING=10
+uint8 CLEANING_UP=11
+uint8 SHUTTING_DOWN=12
+uint8 ACTIVATING=13
+uint8 DEACTIVATING=14
+uint8 ERROR_PROCESSING=15
+
+string id
+string type
+bool enabled
+uint8 lifecycle_state
+rcl_interfaces/Parameter[] parameters
+bool has_latest_event
+device_manager_msgs/DeviceEvent latest_event
+bool has_last_transition
+device_manager_msgs/TransitionRecord last_transition

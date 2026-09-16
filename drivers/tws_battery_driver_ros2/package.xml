@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tws_battery_driver_ros2</name>
+  <version>0.2.21</version>
+  <description>TWS 电池 Modbus over CAN ROS2 驱动</description>
+
+  <maintainer email="Crazyokd@users.noreply.github.com">Crazyokd</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>device_manager_core</depend>
+  <depend>pluginlib</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>device_manager_ros</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

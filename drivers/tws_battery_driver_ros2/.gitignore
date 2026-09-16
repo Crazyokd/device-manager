@@ -1,0 +1,5 @@
+.codex
+build/
+install/
+log/
+__pycache__/

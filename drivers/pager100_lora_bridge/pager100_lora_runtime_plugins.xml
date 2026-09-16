@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="pager100_lora_bridge_core">
+  <class
+    name="pager100_lora_bridge/Pager100LoraRuntime"
+    type="pager100_lora_bridge::Pager100LoraRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

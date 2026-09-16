@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="tws_battery_driver_ros2_core">
+  <class
+    name="tws_battery_driver_ros2/TwsBatteryRuntime"
+    type="tws_battery_driver_ros2::TwsBatteryRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

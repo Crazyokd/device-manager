@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>device_manager_ros</name>
+  <version>0.1.0</version>
+  <description>ROS 2 node and Lifecycle adapter for device_manager_core.</description>
+
+  <maintainer email="Crazyokd@users.noreply.github.com">Crazyokd</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>builtin_interfaces</depend>
+  <depend>curl</depend>
+  <depend>device_manager_core</depend>
+  <depend>device_manager_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>std_msgs</depend>
+  <depend>yaml-cpp</depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cppcheck</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

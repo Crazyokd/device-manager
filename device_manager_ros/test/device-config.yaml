@@ -1,0 +1,4 @@
+instances:
+  - device_id: camera
+    device_type: camera
+    device_name: top_view_camera

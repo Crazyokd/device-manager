@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="gmsl_v4l2_camera_driver_core">
+  <class
+    name="gmsl_v4l2_camera_driver/GmslV4l2CameraRuntime"
+    type="gmsl_v4l2_camera_driver::GmslV4l2CameraRuntime"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>

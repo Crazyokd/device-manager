@@ -1,0 +1,25 @@
+instances:
+  # Safe smoke-test device. It uses a runtime shipped by this repository, but
+  # examples/parameter_api.py keeps device.enable=false by default, so no
+  # hardware is opened until you opt in.
+  - device_id: demo_imu
+    device_type: imu
+    runtime: ch020_imu_driver/Ch020ImuRuntime
+
+  # Standard ROS 2 Lifecycle nodes can be managed directly. Start the target
+  # node separately, then uncomment and adjust node_name.
+  # - device_id: lifecycle_camera
+  #   device_type: camera
+  #   node_name: /camera_driver
+
+  # Non-lifecycle ROS drivers can be owned as child processes. Set the package,
+  # executable, and parameter mappings for the driver you want to launch.
+  # - device_id: external_lidar
+  #   device_type: lidar
+  #   runtime: ros2_process
+  #   process:
+  #     package: vendor_lidar_driver
+  #     executable: lidar_node
+  #     node_name: external_lidar
+  #     parameter_mappings:
+  #       port: device.interface.serial_port

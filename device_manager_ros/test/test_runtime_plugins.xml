@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<library path="device_manager_ros_test_runtime_plugin">
+  <class
+    name="device_manager_ros/TestRuntimePlugin"
+    type="device_manager_ros::TestRuntimePlugin"
+    base_class_type="device_manager::IDeviceRuntime"/>
+</library>
